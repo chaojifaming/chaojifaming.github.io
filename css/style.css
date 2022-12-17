@@ -1615,6 +1615,16 @@ body:not(.heimu_toggle_on) .new:hover .heimu.off {
   color: #ba0000;
 }
 /*阅读更多：https://zh.moegirl.org/MediaWiki:Mobile.css 本文引自萌娘百科(https://zh.moegirl.org)，文字内容默认使用《知识共享 署名-非商业性使用-相同方式共享 3.0》协议。*/
+/*info-pink.ico图标鼠标经过时变黑白*/
+.info-pink-ico-hover-black:hover {
+/*border: 1px solid #ff4e6a*/
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: #808080;
+}
 @-moz-keyframes shake-it {
   0% {
     text-shadow: 0 0 rgba(0,255,255,0.5), 0 0 rgba(255,0,0,0.5);
