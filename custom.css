@@ -1,0 +1,100 @@
+/*萌娘百科”你知道的太多了“（黑幕）*/
+span.heimu a.external,span.heimu a.external:visited,span.heimu a.extiw,span.heimu a.extiw:visited {
+    color: #252525
+}
+.heimu,.heimu a,a .heimu,.heimu a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none
+}
+body:not(.heimu_toggle_on) .heimu:hover,body:not(.heimu_toggle_on) .heimu:active,body:not(.heimu_toggle_on) .heimu.off {
+    transition: color .13s linear;
+    color: #fff
+}
+body:not(.heimu_toggle_on) .heimu:hover a,body:not(.heimu_toggle_on) a:hover .heimu,body:not(.heimu_toggle_on) .heimu.off a,body:not(.heimu_toggle_on) a:hover .heimu.off {
+    transition: color .13s linear;
+    color: #add8e6
+}
+body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off .new:hover,body:not(.heimu_toggle_on) .new:hover .heimu.off,body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off .new:hover,body:not(.heimu_toggle_on) .new:hover .heimu.off {
+    transition: color .13s linear;
+    color: #ba0000
+}
+/*阅读更多：https://zh.moegirl.org/MediaWiki:Mobile.css 本文引自萌娘百科(https://zh.moegirl.org)，文字内容默认使用《知识共享 署名-非商业性使用-相同方式共享 3.0》协议。*/
+
+
+
+
+
+/*info-pink.ico图标鼠标经过时变黑白*/
+.info-pink-ico-hover-black:hover{
+	/*border: 1px solid #ff4e6a*/
+    -webkit-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%); 
+	-ms-filter: grayscale(100%); 
+	-o-filter: grayscale(100%); 
+	filter: grayscale(100%); 
+	filter: gray;
+}
+
+
+
+
+
+/*nexmoe*/
+#nexmoe-background {
+    .nexmoe-bg {
+        opacity: 0.3;
+        background-size: cover;
+        filter: blur(8px);
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .mdui-appbar {
+        padding: 10px;
+        display: none;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.nexmoe #nexmoe-header .nexmoe-count div span {
+    color: #363636;
+    display: block;
+  }
+
+
+.nexmoe #nexmoe-header .nexmoe-count div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    color: #60656b;
+}
+
+
+.nexmoe #nexmoe-header .nexmoe-list .nexmoe-list-item {
+  padding: 0 36px;
+  color: #60656b;
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  text-align: center;
+  transition: none !important;
+}
+
+body {
+    background: var(--color-card);
+    font-size: 15px;
+  }
+
+
+
+/*icon*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
